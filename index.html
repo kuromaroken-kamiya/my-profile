@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>神谷健一 | ホームページ制作 × AI活用 × 集客支援</title>
+  <meta name="description" content="SEOライティングとセールスライティングで便利屋を立ち上げ、自らの接客でGoogleクチコミ4.9（37件）を獲得。生成AI活用でスピード感のあるサイト制作を提供します。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Noto+Serif+JP:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- ══ NAVIGATION ══ -->
+<nav>
+  <a href="#hero" class="nav-logo">神谷健一</a>
+  <ul class="nav-links">
+    <li><a href="#story">ストーリー</a></li>
+    <li><a href="#services">サービス</a></li>
+    <li><a href="#works">実績</a></li>
+    <li><a href="#about">プロフィール</a></li>
+    <li><a href="#flow">ご依頼の流れ</a></li>
+    <li><a href="#contact" class="nav-cta">お問い合わせ</a></li>
+  </ul>
+  <button class="hamburger" onclick="toggleMenu()" aria-label="メニュー">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#story" onclick="toggleMenu()">ストーリー</a>
+  <a href="#services" onclick="toggleMenu()">サービス</a>
+  <a href="#works" onclick="toggleMenu()">実績</a>
+  <a href="#about" onclick="toggleMenu()">プロフィール</a>
+  <a href="#flow" onclick="toggleMenu()">ご依頼の流れ</a>
+  <a href="#contact" onclick="toggleMenu()">お問い合わせ</a>
+</div>
+
+<!-- ══ HERO ══ -->
+<section id="hero">
+  <div class="hero-inner">
+
+    <div class="hero-badge fade-up">
+      <i data-lucide="leaf" style="width:14px;height:14px;"></i>
+      湘南エリア発 / フリーランス制作者
+    </div>
+
+    <h1 class="hero-title fade-up d1">
+      サイト制作から現場作業、口コミ獲得まで<br>
+      <em>すべて1人でやってきました</em>
+    </h1>
+
+    <p class="hero-sub fade-up d2">
+      SEOライティング・セールスライティングで便利屋を立ち上げ、<br>
+      自らの接客と作業でGoogleクチコミ4.9を獲得。<br>
+      生成AIを活用したスピード制作で、あなたのビジネスもサポートします。
+    </p>
+
+    <div class="hero-results fade-up d3">
+      <div class="result-card">
+        <div class="result-stars">★★★★★</div>
+        <div class="result-number">4.9</div>
+        <div class="result-label">現場の接客で自ら獲得した<br>Google クチコミ評価</div>
+      </div>
+      <div class="result-card">
+        <div class="result-number">37<span style="font-size:1rem;color:var(--muted)">件</span></div>
+        <div class="result-label">すべて自分の作業・対応で<br>集めた口コミ</div>
+      </div>
+      <div class="result-card">
+        <div class="result-number">5<span style="font-size:1rem;color:var(--muted)">+</span></div>
+        <div class="result-label">企画〜公開まで手がけた<br>制作サイト数</div>
+      </div>
+      <div class="result-card">
+        <div class="result-number" style="font-size:1.6rem;">AI</div>
+        <div class="result-label">生成AI活用で<br>制作スピードを加速</div>
+      </div>
+    </div>
+
+    <div class="hero-cta fade-up d4">
+      <a href="#contact" class="btn-primary">無料で相談する</a>
+      <a href="#works" class="btn-outline">実績を見る</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ PAIN POINTS ══ -->
+<section id="pain">
+  <div class="section-inner">
+    <span class="section-label"><i data-lucide="alert-circle" style="width:13px;height:13px;"></i> Problem</span>
+    <h2 class="section-title">AIやホームページのこと、<br>一人で抱えていませんか？</h2>
+    <p class="section-desc">多くの方が感じているお悩みに、まるごと対応します。</p>
+
+    <div class="pain-grid">
+      <div class="pain-item observe">
+        <div class="pain-icon"><i data-lucide="circle-help"></i></div>
+        <p class="pain-text">AIをビジネスで使いたいけど<br><strong>どこから始めていいかわからない</strong></p>
+      </div>
+      <div class="pain-item observe">
+        <div class="pain-icon"><i data-lucide="monitor"></i></div>
+        <p class="pain-text">ホームページを作りたいが<br><strong>業者に頼むと高くて相談しにくい</strong></p>
+      </div>
+      <div class="pain-item observe">
+        <div class="pain-icon"><i data-lucide="map-pin"></i></div>
+        <p class="pain-text">Googleに店を表示させたいが<br><strong>設定方法がまったくわからない</strong></p>
+      </div>
+      <div class="pain-item observe">
+        <div class="pain-icon"><i data-lucide="megaphone"></i></div>
+        <p class="pain-text">SNS・Webから集客したいが<br><strong>何をすればいいか手探り状態</strong></p>
+      </div>
+      <div class="pain-item observe">
+        <div class="pain-icon"><i data-lucide="settings"></i></div>
+        <p class="pain-text">制作後のサポートが薄く<br><strong>ちょっとした変更も頼みにくい</strong></p>
+      </div>
+      <div class="pain-item observe">
+        <div class="pain-icon"><i data-lucide="heart-handshake"></i></div>
+        <p class="pain-text">気軽に相談できる<br><strong>身近なWeb担当者が欲しい</strong></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ STORY ══ -->
+<section id="story">
+  <div class="section-inner">
+    <span class="section-label"><i data-lucide="book-open" style="width:13px;height:13px;"></i> Story</span>
+    <h2 class="section-title">制作者としてのストーリー</h2>
+    <p class="section-desc">ただ作るだけではない。自分で事業を立ち上げ、現場で結果を出してきました。</p>
+
+    <div class="story-timeline">
+      <div class="story-step observe">
+        <div class="story-dot"><i data-lucide="pen-line"></i></div>
+        <div class="story-content">
+          <div class="story-label">Step 1 — ライティング力で事業を立ち上げ</div>
+          <div class="story-title">SEOライティング × セールスライティングで「湘南くらしの本舗」を開業</div>
+          <div class="story-text">便利屋「湘南くらしの本舗」のホームページを自ら企画・制作。SEOを意識したコンテンツ設計とセールスライティングで、検索から問い合わせにつながる導線を構築しました。</div>
+        </div>
+      </div>
+
+      <div class="story-step observe">
+        <div class="story-dot"><i data-lucide="hard-hat"></i></div>
+        <div class="story-content">
+          <div class="story-label">Step 2 — 現場作業で信頼を獲得</div>
+          <div class="story-title">自ら現場に立ち、接客・作業で口コミ37件（4.9）を獲得</div>
+          <div class="story-text">草刈り・不用品回収・清掃・運搬など、依頼された作業をすべて1人でこなし、丁寧な対応でお客様の信頼を積み上げました。Googleクチコミ37件・評価4.9はすべて自分の接客と作業で獲得した数字です。</div>
+        </div>
+      </div>
+
+      <div class="story-step observe">
+        <div class="story-dot"><i data-lucide="sparkles"></i></div>
+        <div class="story-content">
+          <div class="story-label">Step 3 — 生成AIでスピードアップ</div>
+          <div class="story-title">AI活用でサイトデザイン・制作のスピードが飛躍的に向上</div>
+          <div class="story-text">生成AIをデザインやコーディング、文章制作に活用し、制作スピードを大幅に加速。短納期でも質の高いサイトを提供できる体制を確立しました。</div>
+        </div>
+      </div>
+
+      <div class="story-step observe">
+        <div class="story-dot"><i data-lucide="rocket"></i></div>
+        <div class="story-content">
+          <div class="story-label">Step 4 — 制作者として展開</div>
+          <div class="story-title">培った経験をもとに、他の事業者様のサイト制作・集客を支援中</div>
+          <div class="story-text">飲食店「相南家」、工務店「吉田工務店」など業種を問わずホームページを制作。SEOライティング・Googleビジネス運営・現場感覚を活かした "集客できるサイト" を作っています。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SERVICES ══ -->
+<section id="services">
+  <div class="section-inner">
+    <span class="section-label"><i data-lucide="layers" style="width:13px;height:13px;"></i> Services</span>
+    <h2 class="section-title">提供できるサービス</h2>
+    <p class="section-desc">ご相談内容に合わせて柔軟に対応します。まずはお気軽に。</p>
+
+    <div class="services-grid">
+      <div class="service-card observe">
+        <div class="service-icon"><i data-lucide="globe"></i></div>
+        <div class="service-name">ホームページ制作</div>
+        <p class="service-desc">企画・デザイン・文章・画像制作まで一括対応。WordPressを中心に、スマートフォン対応の見やすいサイトを構築します。</p>
+        <span class="service-tag"><i data-lucide="check"></i> 企画〜公開まで一貫</span>
+      </div>
+      <div class="service-card observe">
+        <div class="service-icon"><i data-lucide="map-pin"></i></div>
+        <div class="service-name">Googleビジネスプロフィール</div>
+        <p class="service-desc">設置から口コミ返信・投稿管理・情報最適化まで運営をサポート。地域検索でお客様に見つけてもらいやすくします。</p>
+        <span class="service-tag"><i data-lucide="check"></i> 設置・運営代行</span>
+      </div>
+      <div class="service-card observe">
+        <div class="service-icon"><i data-lucide="sparkles"></i></div>
+        <div class="service-name">AI活用サイトデザイン</div>
+        <p class="service-desc">生成AIを活用し、デザイン・コーディング・画像制作を高速化。短納期でもクオリティの高いサイトを提供します。</p>
+        <span class="service-tag"><i data-lucide="zap"></i> スピード制作</span>
+      </div>
+      <div class="service-card observe">
+        <div class="service-icon"><i data-lucide="trending-up"></i></div>
+        <div class="service-name">Web集客・SEO支援</div>
+        <p class="service-desc">検索順位改善・口コミ獲得施策・SNS運用など、オンラインからの集客を総合的にサポートします。</p>
+        <span class="service-tag"><i data-lucide="check"></i> 集客改善</span>
+      </div>
+      <div class="service-card observe">
+        <div class="service-icon"><i data-lucide="file-pen"></i></div>
+        <div class="service-name">SEO・セールスライティング</div>
+        <p class="service-desc">検索に強いSEO記事から、問い合わせにつなげるセールスライティングまで。自社事業で実証済みのスキルです。</p>
+        <span class="service-tag"><i data-lucide="check"></i> 実績で実証済み</span>
+      </div>
+      <div class="service-card observe">
+        <div class="service-icon"><i data-lucide="handshake"></i></div>
+        <div class="service-name">現場作業・コンサルティング</div>
+        <p class="service-desc">業者折衝・現地撮影・実務対応など、Web以外の現場作業もご相談ください。1人でまるっと動きます。</p>
+        <span class="service-tag"><i data-lucide="check"></i> 湘南エリア対応</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ WORKS ══ -->
+<section id="works">
+  <div class="section-inner">
+    <span class="section-label"><i data-lucide="briefcase" style="width:13px;height:13px;"></i> Works</span>
+    <h2 class="section-title">制作・運営実績</h2>
+    <p class="section-desc">実際に携わったプロジェクトをご紹介します。</p>
+
+    <div class="works-list">
+
+      <!-- 湘南くらしの本舗 -->
+      <div class="work-card observe">
+        <div class="work-inner">
+          <div class="work-preview">
+            <div class="work-browser-bar">
+              <div class="browser-dots"><span></span><span></span><span></span></div>
+              <div class="browser-url">benriya-hujisawa.com</div>
+            </div>
+            <iframe src="https://benriya-hujisawa.com/" loading="lazy" title="湘南くらしの本舗" sandbox="allow-scripts allow-same-origin"></iframe>
+          </div>
+          <div class="work-info">
+            <div class="work-industry"><i data-lucide="home"></i> 便利屋・生活サービス（自社事業）</div>
+            <div class="work-name">湘南くらしの本舗</div>
+            <div class="work-review-badge">
+              <span class="stars">★★★★★</span>
+              <span class="score">4.9</span>
+              <span class="count">/ 5.0（37件）</span>
+            </div>
+            <div class="work-tags">
+              <span class="work-tag">SEOライティング</span>
+              <span class="work-tag">セールスライティング</span>
+              <span class="work-tag">HP企画・制作</span>
+              <span class="work-tag">Googleビジネス運営</span>
+              <span class="work-tag">現場作業</span>
+              <span class="work-tag">口コミ獲得</span>
+            </div>
+            <p class="work-desc">SEOライティングとセールスライティングで自ら事業を立ち上げ。ホームページ制作・Googleビジネス運営・現場作業まで1人で担当し、お客様対応を通じて口コミ37件（4.9）をすべて自分の手で獲得しました。</p>
+            <div class="work-highlight">ライティングで集客し、現場で信頼を積み上げ、口コミとして形に残す——この一連の流れを1人で回してきた実績が最大の強みです。</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 相南家 -->
+      <div class="work-card observe">
+        <div class="work-inner" data-reverse style="direction:rtl;">
+          <div class="work-info" style="direction:ltr;">
+            <div class="work-industry"><i data-lucide="utensils"></i> 飲食店 / ラーメン</div>
+            <div class="work-name">相南家（東林間）</div>
+            <div class="work-tags">
+              <span class="work-tag">HP制作</span>
+              <span class="work-tag">デザイン</span>
+              <span class="work-tag">コピーライティング</span>
+              <span class="work-tag">AI活用デザイン</span>
+            </div>
+            <p class="work-desc">東林間の家系ラーメン店「相南家」のホームページを制作。店のブランドに合わせた和モダンなデザインで世界観を表現。生成AIを活用し、デザインからコーディングまでスピーディに仕上げました。</p>
+          </div>
+          <div class="work-preview" style="direction:ltr;">
+            <div class="work-browser-bar">
+              <div class="browser-dots"><span></span><span></span><span></span></div>
+              <div class="browser-url">sonanya.com</div>
+            </div>
+            <iframe src="https://sonanya.com" loading="lazy" title="相南家" sandbox="allow-scripts allow-same-origin"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- 吉田工務店 -->
+      <div class="work-card observe">
+        <div class="work-inner">
+          <div class="work-preview">
+            <div class="work-browser-bar">
+              <div class="browser-dots"><span></span><span></span><span></span></div>
+              <div class="browser-url">yoshida-kk5111.com</div>
+            </div>
+            <iframe src="https://yoshida-kk5111.com/" loading="lazy" title="吉田工務店" sandbox="allow-scripts allow-same-origin"></iframe>
+          </div>
+          <div class="work-info">
+            <div class="work-industry"><i data-lucide="hard-hat"></i> 建設・設備工事</div>
+            <div class="work-name">吉田工務店</div>
+            <div class="work-tags">
+              <span class="work-tag">HP制作</span>
+              <span class="work-tag">デザイン</span>
+              <span class="work-tag">文章執筆</span>
+              <span class="work-tag">AI活用デザイン</span>
+            </div>
+            <p class="work-desc">埼玉・横浜を拠点とする設備工事会社「吉田工務店」のホームページを制作。水道・下水道工事の専門性が伝わる構成で、信頼感のあるコーポレートサイトに仕上げました。</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ PROFILE ══ -->
+<section id="about">
+  <div class="section-inner">
+    <span class="section-label"><i data-lucide="user" style="width:13px;height:13px;"></i> Profile</span>
+    <h2 class="section-title">神谷健一について</h2>
+
+    <div class="profile-wrap observe">
+      <div class="profile-img-wrap">
+        <div class="profile-placeholder"><i data-lucide="user"></i></div>
+      </div>
+      <div>
+        <div class="profile-name">神谷 健一</div>
+        <div class="profile-role">Webクリエイター / AI活用支援 / 湘南エリア</div>
+        <p class="profile-text">
+          湘南エリアを拠点に活動するフリーランスのWebクリエイターです。便利屋「湘南くらしの本舗」を自ら立ち上げ、SEOライティングとセールスライティングで集客し、現場作業で口コミ4.9（37件）を獲得してきました。
+        </p>
+        <p class="profile-text">
+          生成AIの登場で制作のスピードは大きく変わりました。AIを活用したサイトデザイン・コーディングで、短納期でも質の高い成果物を提供しています。大手業者に頼むほどではないけど、プロの手を借りたい——そんな方のお役に立ちたいと考えています。
+        </p>
+        <p class="profile-text">
+          お酒が好きなので、商談・プライベート問わずざっくばらんにお話しできます。まずはお気軽にどうぞ。
+        </p>
+        <div class="skill-list">
+          <span class="skill-tag">WordPress</span>
+          <span class="skill-tag">HTML / CSS</span>
+          <span class="skill-tag">SEOライティング</span>
+          <span class="skill-tag">セールスライティング</span>
+          <span class="skill-tag">Googleビジネスプロフィール</span>
+          <span class="skill-tag">生成AI活用</span>
+          <span class="skill-tag">AIデザイン</span>
+          <span class="skill-tag">Canva / 画像制作</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FLOW ══ -->
+<section id="flow">
+  <div class="section-inner">
+    <span class="section-label"><i data-lucide="arrow-right-circle" style="width:13px;height:13px;"></i> Flow</span>
+    <h2 class="section-title">ご依頼の流れ</h2>
+    <p class="section-desc">カンタン4ステップ。まずはお気軽にご連絡ください。</p>
+
+    <div class="flow-grid">
+      <div class="flow-card observe">
+        <div class="flow-num-badge">1</div>
+        <div class="flow-card-icon"><i data-lucide="message-circle"></i></div>
+        <div class="flow-card-title">お問い合わせ</div>
+        <div class="flow-card-desc">フォームまたはXより<br>お気軽にご連絡ください</div>
+        <div class="flow-arrow"><i data-lucide="chevron-right"></i></div>
+      </div>
+      <div class="flow-card observe">
+        <div class="flow-num-badge">2</div>
+        <div class="flow-card-icon"><i data-lucide="coffee"></i></div>
+        <div class="flow-card-title">ヒアリング</div>
+        <div class="flow-card-desc">ご要望・ご予算を伺い<br>最適なプランをご提案</div>
+        <div class="flow-arrow"><i data-lucide="chevron-right"></i></div>
+      </div>
+      <div class="flow-card observe">
+        <div class="flow-num-badge">3</div>
+        <div class="flow-card-icon"><i data-lucide="pencil-ruler"></i></div>
+        <div class="flow-card-title">制作・作業</div>
+        <div class="flow-card-desc">ご契約後、制作開始<br>進捗は随時ご報告します</div>
+        <div class="flow-arrow"><i data-lucide="chevron-right"></i></div>
+      </div>
+      <div class="flow-card observe">
+        <div class="flow-num-badge">4</div>
+        <div class="flow-card-icon"><i data-lucide="party-popper"></i></div>
+        <div class="flow-card-title">納品・公開</div>
+        <div class="flow-card-desc">確認・修正後に納品<br>公開後サポートも対応</div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:2rem;">
+      <a href="#contact" class="btn-primary">まずは無料相談する</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FAQ ══ -->
+<section id="faq">
+  <div class="section-inner">
+    <span class="section-label"><i data-lucide="message-circle-question" style="width:13px;height:13px;"></i> FAQ</span>
+    <h2 class="section-title">よくあるご質問</h2>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="q-mark">Q</span>
+          <span>無料相談だけでも大丈夫ですか？</span>
+          <span class="faq-chevron"><i data-lucide="chevron-down"></i></span>
+        </div>
+        <div class="faq-a">はい、もちろんです。「こんなことできる？」「まずは話だけ聞きたい」という段階でも大歓迎です。相談・お見積もりは無料ですので、お気軽にお問い合わせください。</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="q-mark">Q</span>
+          <span>ホームページ制作の費用はどのくらいですか？</span>
+          <span class="faq-chevron"><i data-lucide="chevron-down"></i></span>
+        </div>
+        <div class="faq-a">ご要望・規模・機能により異なります。まずはお気軽にご相談ください。お見積もりは無料です。</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="q-mark">Q</span>
+          <span>AIについて全く知識がなくても相談できますか？</span>
+          <span class="faq-chevron"><i data-lucide="chevron-down"></i></span>
+        </div>
+        <div class="faq-a">はい、大丈夫です。「AIって何？」という段階から一緒に整理します。ビジネスにどう活かせるかを噛み砕いてご説明します。</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="q-mark">Q</span>
+          <span>生成AIを使うと、制作期間はどのくらい短くなりますか？</span>
+          <span class="faq-chevron"><i data-lucide="chevron-down"></i></span>
+        </div>
+        <div class="faq-a">内容にもよりますが、従来の工程と比べてデザイン・コーディングのスピードが大幅に向上しています。短納期のご相談もお気軽にどうぞ。</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span class="q-mark">Q</span>
+          <span>制作後のサポートはありますか？</span>
+          <span class="faq-chevron"><i data-lucide="chevron-down"></i></span>
+        </div>
+        <div class="faq-a">はい。テキスト変更・画像差し替え・機能追加にも対応しています。継続サポートプランもご用意しています。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══ -->
+<section id="contact">
+  <div class="section-inner">
+    <span class="section-label"><i data-lucide="mail" style="width:13px;height:13px;"></i> Contact</span>
+    <h2 class="section-title">お問い合わせ</h2>
+
+    <div class="contact-wrap">
+      <div class="contact-info">
+        <h3>まずはお気軽にどうぞ</h3>
+        <p>「こんなことできる？」という軽いご相談から大歓迎です。無料相談だけでもOKです。</p>
+        <div class="contact-badges">
+          <div class="c-badge"><span class="icon"><i data-lucide="message-circle"></i></span><span>相談・見積もり無料</span></div>
+          <div class="c-badge"><span class="icon"><i data-lucide="zap"></i></span><span>通常24時間以内にご返信</span></div>
+          <div class="c-badge"><span class="icon"><i data-lucide="video"></i></span><span>オンライン・対面どちらでも</span></div>
+          <div class="c-badge"><span class="icon"><i data-lucide="tree-pine"></i></span><span>湘南エリア現地対応あり</span></div>
+        </div>
+      </div>
+
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label>お名前<span class="req">必須</span></label>
+          <input type="text" name="name" placeholder="山田 太郎" required />
+        </div>
+        <div class="form-group">
+          <label>メールアドレス<span class="req">必須</span></label>
+          <input type="email" name="email" placeholder="your@email.com" required />
+        </div>
+        <div class="form-group">
+          <label>電話番号<span style="font-size:.68rem;color:var(--muted);margin-left:.3rem;">任意</span></label>
+          <input type="tel" name="tel" placeholder="090-0000-0000" />
+        </div>
+        <div class="form-group">
+          <label>ご相談内容<span class="req">必須</span></label>
+          <select name="category" required>
+            <option value="">選択してください</option>
+            <option>ホームページ制作</option>
+            <option>Googleビジネスプロフィール</option>
+            <option>AI活用・コンテンツ制作</option>
+            <option>Web集客・SEO</option>
+            <option>まずは無料相談のみ</option>
+            <option>その他</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>メッセージ<span class="req">必須</span></label>
+          <textarea name="message" placeholder="ご要望・ご予算・気になることなど、お気軽にどうぞ。" required></textarea>
+        </div>
+        <button type="submit" class="form-submit">送信する</button>
+        <p style="font-size:.7rem;color:var(--muted);text-align:center;margin-top:.7rem;">
+          ※ 送信いただいた情報はお問い合わせ対応のみに使用します。
+        </p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-logo">神谷健一</div>
+  <p class="footer-desc">湘南エリア発 / ホームページ制作 × AI活用 × 集客支援</p>
+  <div class="footer-links">
+    <a href="#story">ストーリー</a>
+    <a href="#services">サービス</a>
+    <a href="#works">実績</a>
+    <a href="#about">プロフィール</a>
+    <a href="#flow">ご依頼の流れ</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">お問い合わせ</a>
+  </div>
+  <p class="footer-copy">&copy; 2025 神谷健一 All Rights Reserved.</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
