@@ -1,0 +1,136 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#3D7A4A"/>
+      <stop offset="100%" stop-color="#2C5A36"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#FAF9F5"/>
+
+  <!-- Decorative circles (right) -->
+  <circle cx="1160" cy="90"  r="260" fill="#3D7A4A" fill-opacity="0.05"/>
+  <circle cx="1100" cy="590" r="190" fill="#C88B0A"  fill-opacity="0.04"/>
+
+  <!-- Left green panel -->
+  <rect x="0" y="0" width="410" height="630" fill="url(#greenGrad)"/>
+
+  <!-- Left panel decorative -->
+  <circle cx="-30" cy="620" r="220" fill="white" fill-opacity="0.04"/>
+  <circle cx="410" cy="315" r="320" fill="white" fill-opacity="0.03"/>
+
+  <!-- ── LEFT: Name ── -->
+  <text x="52" y="185"
+        font-family="'Noto Serif JP', 'Hiragino Mincho ProN', serif"
+        font-size="54" font-weight="700" fill="white" letter-spacing="5">神谷 健一</text>
+
+  <!-- Role -->
+  <text x="54" y="228"
+        font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif"
+        font-size="15" fill="rgba(255,255,255,0.78)" letter-spacing="1">Webクリエイター / AI活用支援</text>
+
+  <!-- Divider -->
+  <rect x="52" y="252" width="306" height="1" fill="rgba(255,255,255,0.22)"/>
+
+  <!-- Stats label -->
+  <text x="54" y="292"
+        font-family="'Noto Sans JP', sans-serif"
+        font-size="10" fill="rgba(255,255,255,0.55)" letter-spacing="3">GOOGLE クチコミ実績</text>
+
+  <!-- Rating number -->
+  <text x="52" y="355"
+        font-family="'Noto Serif JP', serif"
+        font-size="58" font-weight="700" fill="#F5C518">4.9</text>
+
+  <!-- Stars -->
+  <text x="52" y="388"
+        font-family="sans-serif"
+        font-size="20" fill="#F5C518" letter-spacing="3">★★★★★</text>
+
+  <!-- Sub label -->
+  <text x="54" y="415"
+        font-family="'Noto Sans JP', sans-serif"
+        font-size="12" fill="rgba(255,255,255,0.62)">開業から1年で37件の口コミを獲得</text>
+
+  <!-- Divider 2 -->
+  <rect x="52" y="435" width="306" height="1" fill="rgba(255,255,255,0.18)"/>
+
+  <!-- Sub stat: sites -->
+  <text x="52" y="476"
+        font-family="'Noto Serif JP', serif"
+        font-size="40" font-weight="700" fill="white">5+</text>
+  <text x="110" y="465"
+        font-family="'Noto Sans JP', sans-serif"
+        font-size="12" fill="rgba(255,255,255,0.65)">制作サイト数</text>
+
+  <!-- URL bottom left -->
+  <text x="52" y="598"
+        font-family="monospace"
+        font-size="12" fill="rgba(255,255,255,0.45)">portfolio.kamiya07.com</text>
+
+  <!-- ── RIGHT: Content ── -->
+
+  <!-- Main headline -->
+  <text x="458" y="178"
+        font-family="'Noto Serif JP', 'Hiragino Mincho ProN', serif"
+        font-size="29" font-weight="700" fill="#1A1A1A">集客できるホームページと、</text>
+  <text x="458" y="222"
+        font-family="'Noto Serif JP', 'Hiragino Mincho ProN', serif"
+        font-size="29" font-weight="700" fill="#3D7A4A">口コミが育つお店をつくります</text>
+
+  <!-- Accent line -->
+  <rect x="458" y="240" width="64" height="3" fill="#3D7A4A" rx="2"/>
+
+  <!-- Description -->
+  <text x="458" y="288"
+        font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif"
+        font-size="14" fill="#555">SEOライティング・セールスライティングでホームページを立ち上げ、</text>
+  <text x="458" y="312"
+        font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif"
+        font-size="14" fill="#555">自らの接客と作業で1年でGoogleクチコミ4.9を獲得。</text>
+  <text x="458" y="336"
+        font-family="'Noto Sans JP', 'Hiragino Sans', sans-serif"
+        font-size="14" fill="#555">現場目線と生成AIを活用したスピード制作で、ビジネスをサポートします。</text>
+
+  <!-- Tag pills row 1 -->
+  <rect x="458" y="368" width="178" height="34" rx="17" fill="#E8F0EA"/>
+  <text x="547" y="390"
+        font-family="'Noto Sans JP', sans-serif"
+        font-size="13" fill="#2C5A36" text-anchor="middle">ホームページ制作</text>
+
+  <rect x="648" y="368" width="136" height="34" rx="17" fill="#E8F0EA"/>
+  <text x="716" y="390"
+        font-family="'Noto Sans JP', sans-serif"
+        font-size="13" fill="#2C5A36" text-anchor="middle">AI活用支援</text>
+
+  <rect x="796" y="368" width="148" height="34" rx="17" fill="#E8F0EA"/>
+  <text x="870" y="390"
+        font-family="'Noto Sans JP', sans-serif"
+        font-size="13" fill="#2C5A36" text-anchor="middle">Web集客・SEO</text>
+
+  <!-- Tag pills row 2 -->
+  <rect x="458" y="416" width="200" height="34" rx="17" fill="#E8F0EA"/>
+  <text x="558" y="438"
+        font-family="'Noto Sans JP', sans-serif"
+        font-size="13" fill="#2C5A36" text-anchor="middle">セールスライティング</text>
+
+  <rect x="670" y="416" width="196" height="34" rx="17" fill="#E8F0EA"/>
+  <text x="768" y="438"
+        font-family="'Noto Sans JP', sans-serif"
+        font-size="13" fill="#2C5A36" text-anchor="middle">Googleビジネス運営</text>
+
+  <rect x="878" y="416" width="160" height="34" rx="17" fill="#E8F0EA"/>
+  <text x="958" y="438"
+        font-family="'Noto Sans JP', sans-serif"
+        font-size="13" fill="#2C5A36" text-anchor="middle">取材・コンテンツ制作</text>
+
+  <!-- Bottom dark bar -->
+  <rect x="0" y="584" width="1200" height="46" fill="#1A1A1A"/>
+  <text x="458" y="613"
+        font-family="monospace"
+        font-size="13" fill="rgba(255,255,255,0.45)">portfolio.kamiya07.com</text>
+  <text x="1148" y="613"
+        font-family="'Noto Sans JP', sans-serif"
+        font-size="12" fill="rgba(255,255,255,0.35)" text-anchor="end">© 2025 神谷健一</text>
+</svg>
